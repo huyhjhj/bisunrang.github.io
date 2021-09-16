@@ -14,7 +14,7 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'cin chào',
+        title: 'Cin chào',
         text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhé',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
@@ -125,7 +125,7 @@ $('#yes').click(function() {
                 text: "Gửi qua messenger cho tớ lào;))))",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.facebook.com/nguyenhuyhjhj';
+                    window.location = 'https://www.facebook.com/messages/t/nguyenhuyhjhj/';
                   }
             })
         }
