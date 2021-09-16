@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
+        title: 'Nói cho tớ lí do cậu thích tớ đi :v',
         html: true,
         width: 900,
         padding: '3em',
@@ -114,15 +114,15 @@ $('#yes').click(function() {
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
         cancelButtonColor: '#f6cd61',
-        confirmButtonText: 'Gửi qua fb của tớ nèo ;) '
+        confirmButtonText: 'Hí hí'
     }).then((result) => {
         if (result.value) {
             Swal.fire({
                 width: 900,
-                confirmButtonText: 'Okiiiii lun <3',
+                confirmButtonText: 'Oki luông <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Tớ bít mè',
-                text: "Tối nay tớ qua đón cậu đi chơi nhaaaaaaaaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàoooooo",
+                title: 'Awwwwww',
+                text: "Gửi qua messenger cho tớ lào;))))",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
                     window.location = 'https://www.facebook.com/nguyenhuyhjhj';
