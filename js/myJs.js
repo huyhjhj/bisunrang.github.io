@@ -14,8 +14,8 @@ function firstQuestion(){
     
     $('.content').hide();
     Swal.fire({
-        title: 'Cin chào',
-        text: 'Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhé',
+        title: 'Cin chào Toanh Tàu ',
+        text: 'T có điều này muốn hỏi Toanh Tàu nhớ phải trả lời thật lòng nhé',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
@@ -73,7 +73,7 @@ $('#no').click(() => {
 // generate text in input
 function textGenerate() {
     var n = "";
-    var text = " Tại vì cậu đẹp zai vcl ;))))) ";
+    var text = " Tại vì thedyingme đệp zai vcl ;))))) ";
     var a = Array.from(text);
     var textVal = $('#txtReason').val() ? $('#txtReason').val() : "";
     var count = textVal.length;
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/tick.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho tớ lí do cậu thích tớ đi :v',
+        title: 'Nói cho t lí do Toanh Tàu thích t đi :v',
         html: true,
         width: 900,
         padding: '3em',
@@ -109,7 +109,7 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+        cancelButtonText: "Thôi ngại lém",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
@@ -122,10 +122,10 @@ $('#yes').click(function() {
                 confirmButtonText: 'Oki luông <3',
                 background: '#fff url("img/iput-bg.jpg")',
                 title: 'Awwwwww',
-                text: "Gửi qua messenger cho tớ lào;))))",
+                text: "dr cho t nao`",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.facebook.com/messages/t/nguyenhuyhjhj/';
+                    window.location = 'https://www.instagram.com/thedyingme__/';
                   }
             })
         }
