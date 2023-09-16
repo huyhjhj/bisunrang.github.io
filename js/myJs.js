@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'Cin chào Lê Hươn Giang ',
-        text: 'T có điều này muốn hỏi Giang xinkk nhớ phải trả lời thật lòng nhé',
+        text: 'Anh có điều này muốn hỏi Giang xinkk nhớ phải trả lời thật lòng nhé',
         imageUrl: 'img/cuteCat.jpg',
         imageWidth: 300,
         imageHeight: 300,
